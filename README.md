@@ -1,6 +1,5 @@
-![Screenshot](doc/apim.png)
-
 # stm32_can_sim
+
 
 Emulate CAN Bus Messages for bench testing / turning on a Ford Sync 3 APIM using a cheap Bluepill board 
 
@@ -47,3 +46,5 @@ You only need 2 wires + a USB cable to turn this on, dupont test wires work fine
 USB PIN 1 is labeled inside the connector.
  - USB PIN 1 -> +12v 
  - USB PIN 4 -> GND
+
+![Screenshot](doc/apim.png)
