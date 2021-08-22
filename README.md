@@ -16,11 +16,11 @@ Total: $27
 **Optional Hardware:**
 
  - Empty female OBD2 header - $5 ELS27 v4 (real) 
- -  $75 - best option for  forscan 
+ - $75 - best option for  forscan 
  - OR
  - Chinese ELM327 Cable With MS/HS switch - $10? - these vary
    greatly in quality and functionality
- - ForScan - free 2mo license - to   make changes to APIM power board
+ - ForScan - free 2mo license - to make changes to APIM power board
    configuration   
  - Extended length LVDS   cable - $8 - Super short cable that typically comes with APIM is hard
    to use on the bench
