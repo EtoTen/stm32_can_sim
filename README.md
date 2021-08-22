@@ -21,7 +21,7 @@ Total: $27
    greatly in quality and functionality
  - ForScan - free 2mo license - to make changes to APIM power board
    configuration   
- - Extended length LVDS   cable - $8 - Super short cable that typically comes with APIM is hard
+ - Extended length LVDS cable - $8 - Super short cable that typically comes with APIM is hard
    to use on the bench
 
 **Wiring:**
