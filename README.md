@@ -26,18 +26,18 @@ Total: $27
 
 **Wiring:**
 
-PA11 Bluepill, CAN H -> TJA1050 RX 
-TJA1050 CAN H -> APIM ICAN H,PIN 19
+ - PA11 Bluepill, CAN H -> TJA1050 RX 
+ - TJA1050 CAN H -> APIM ICAN H,PIN 19
 
-PA12 Bluepill, CAN L -> TJA1050 TX
-TJA1050 CAN L -> APIM ICAN L,PIN 20
+ - PA12 Bluepill, CAN L -> TJA1050 TX
+ - TJA1050 CAN L -> APIM ICAN L,PIN 20
 
-OBD 06 -> APIM HS CAN H, PIN 53
-OBD 14 -> APIM HS CAN L, PIN 54
+ - OBD 06 -> APIM HS CAN H, PIN 53
+ - OBD 14 -> APIM HS CAN L, PIN 54
 
-GND -> buck gnd / APIM, PIN 37 / TJA1050
-12v+ -> buck in + / USB Port / OBD2, Pin 16 / APIM, PIN 1
-5v+ out from buck -> TJA1050 / Bluepill 5v in
+ - GND -> buck gnd / APIM, PIN 37 / TJA1050
+ - 12v+ -> buck in + / USB Port / OBD2, Pin 16 / APIM, PIN 1
+ - 5v+ out from buck -> TJA1050 / Bluepill 5v in
 
 
 **OEM USB Hub** 
