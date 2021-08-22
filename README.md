@@ -1,4 +1,4 @@
-![Screenshot](screenshot.png)
+![Screenshot](doc/apim.png)
 
 # stm32_can_sim
 
