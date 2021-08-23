@@ -2,7 +2,7 @@
 
 **Function**
 
-Emulate CAN Bus Messages to force a Ford Sync 3 (TM) APIM to turn on using a cheap STM32 BluePill board.  
+Emulate CAN Bus Messages to force a Ford Sync 3 (TM) APIM to turn on outside of a car using a cheap STM32 BluePill board.  
 
 **Why?**
 
