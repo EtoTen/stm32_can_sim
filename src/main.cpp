@@ -1,4 +1,5 @@
 /*
+------------
 Speed message, so that Sync does not think that the vehicle is moving
 ----
 
