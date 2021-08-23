@@ -6,7 +6,7 @@ Emulate CAN Bus Messages to force a Ford Sync 3 (TM) APIM to turn on outside of 
 
 **Why?**
 
-In order to bench test, security test and upgrade an APIM it is desirable to have it actually turn on outside of the car and in the comfort of an office. These bench testing cables can be bought at a ridiculous price ($150+) and are missing functionality. It is much more fun to build your own test harness. 
+In order to bench test, security test and upgrade an APIM it is desirable to have it actually turn on outside of the car and in the comfort of an office. Existing bench testing cable solutions can be bought at a ridiculous price ($150+) and are missing functionality. It is much more fun to build your own test harness. 
 
 
 **Wiring**
