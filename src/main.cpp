@@ -46,8 +46,9 @@ static can_messages cMessages[3] = {
   {{0x048},{0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0xE0, 0x00}},  // turn on C1MCA - this turned most units on
  // {{0x3B3},{0x00, 0x00, 0x00, 0x00, 0x07, 0x00, 0xE0, 0x00}},  // turn on CGEA 1.3 - newer protocol, this actually made some APIMs turn off so it is commented out
   {{0x3B3},{0x41, 0x00, 0x00, 0x00, 0x4c, 0x00, 0xE0, 0x00}},  // turn CGEA 1.3 - second option, seems to work better
-  {{0x109},{0x00, 0x03, 0x01, 0x00, 0x00, 0x00, 0x00, 0x28}}   // Accessory ON, Gear Park, Speed 0 - this needed or else the APIM will default to driving mode and will lock out many settings
-  };
+  {{0x109},{0x00, 0x03, 0x01, 0x00, 0x00, 0x00, 0x00, 0x28}},   // Accessory ON, Gear Park, Speed 0 - this needed or else the APIM will default to driving mode and will lock out many settings
+  {{0x44, 0x88, 0xC0, 0x0C, 0x10, 0x04, 0x00, 0x02}}  //sync4 turn on; per jahoovi https://community.cyanlabs.net/t/ordered-a-sync-4-apim-lets-see-what-happens-once-it-arrives/4104/56
+ };
 
 uint8_t txDataLen = 8;
 uint32_t txDly = 100; // mSec
