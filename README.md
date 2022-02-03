@@ -12,6 +12,8 @@ In order to bench test, security test and upgrade an APIM it is desirable to hav
 **Wiring**
 
 ![Screenshot](doc/functional_diagram.png)
+ 2/3/2022  NOTE: APIM pin 19 with pin 53 and 
+                 pin 20 with pin 54 may need to be merged in order to enable ForScan programming on the bench with some APIMs
 
  - PA11 Bluepill, CAN H -> TJA1050 RX 
  - TJA1050 CAN H -> APIM I-CAN H, PIN 19
